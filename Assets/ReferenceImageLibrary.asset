@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4652514672939243920
+  m_GuidHigh: 7665073707516211601
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5176795089430096137
+      m_GuidHigh: 10220144250963713675
+    m_SerializedTextureGuid:
+      m_GuidLow: 10733443927832472994
+      m_GuidHigh: 17704643015453126745
+    m_Size: {x: 0.105, y: 0.14922857}
+    m_SpecifySize: 1
+    m_Name: carte1
+    m_Texture: {fileID: 2800000, guid: 57072da2da6294f459302ff30487b3f5, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4727211411413558318
+      m_GuidHigh: 9287646769523589288
+    m_SerializedTextureGuid:
+      m_GuidLow: 8089842858776060494
+      m_GuidHigh: 11469043213313473656
+    m_Size: {x: 0.105, y: 0.14922857}
+    m_SpecifySize: 1
+    m_Name: carte2
+    m_Texture: {fileID: 2800000, guid: de13e24ee5377044787c2773093a2a9f, type: 3}
