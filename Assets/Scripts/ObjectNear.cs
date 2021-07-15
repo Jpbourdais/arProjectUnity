@@ -26,14 +26,16 @@ public class ObjectNear : MonoBehaviour
     private bool stopAndPlay;
     private bool inputChanged;
 
-    private Animation animCard1Model;
-    private Animation animCard2Model;
+    private Animator animCard1Model;
+    private Animator animCard2Model;
 
     // Start is called before the first frame update
     void Start()
     {
-        animCard1Model = model1.GetComponent<Animation>();
-        animCard2Model = model2.GetComponent<Animation>();
+        animCard1Model = model1.GetComponent<Animator>();
+        animCard2Model = model2.GetComponent<Animator>();
+        animCard1Model.enabled = false;
+        animCard2Model.enabled = false;
         stopAndPlay = false;
     }
 
@@ -46,8 +48,8 @@ public class ObjectNear : MonoBehaviour
             {
                 stopAndPlay = true;
                 music.Play();
-                animCard1Model.Play("animation");
-                animCard2Model.Play("animation");
+                animCard1Model.enabled = true;
+                animCard2Model.enabled = true;
             }
         } else
         {
@@ -55,8 +57,8 @@ public class ObjectNear : MonoBehaviour
             {
                 stopAndPlay = false;
                 music.Stop();
-                animCard1Model.Stop("animation");
-                animCard2Model.Stop("animation");
+                animCard1Model.enabled = false;
+                animCard2Model.enabled = false;
             }
         }
     }

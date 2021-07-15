@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: animation
+    second: AnimationModel
   externalObjects:
   - first:
       type: UnityEngine:Texture2D
@@ -65,7 +65,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: animation
+      name: AnimationModel
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
