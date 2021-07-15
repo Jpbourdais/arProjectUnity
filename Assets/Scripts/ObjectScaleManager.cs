@@ -37,12 +37,11 @@ public class ObjectScaleManager : MonoBehaviour
         bool isUpwardSwipe = startPosition.y < endPosition.y;
         bool isDownwardSwipe = startPosition.y > endPosition.y;
 
-        //float swipeDistance = Vector2.Distance(startPosition, endPosition);
         if (isUpwardSwipe)
         {
             transform.localScale += new Vector3(scale, scale, scale);
         }
-        else if (isDownwardSwipe)
+        else if (isDownwardSwipe && transform.localScale.magnitude > 0)
         {
             transform.localScale -= new Vector3(scale, scale, scale);
         }
