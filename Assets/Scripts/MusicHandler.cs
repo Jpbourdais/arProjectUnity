@@ -23,14 +23,11 @@ public class MusicHandler : MonoBehaviour
         if (Input.GetMouseButtonDown(0)){
             stopAndPlay = !stopAndPlay;
             inputChanged = true;
-            Debug.Log("I Get There");
         }
         
         if (stopAndPlay & inputChanged) {
-            Debug.Log("Play");
             music.Play();
         } else if (!stopAndPlay & inputChanged){
-            Debug.Log("Stop");
             music.Stop();
         }
 

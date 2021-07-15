@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectScaleManager : MonoBehaviour
 {
 
-    public float scale = 0.01f;
+    public float scale = 1f;
     private Vector2 startPosition;
 
     // Update is called once per frame
