@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectNear : MonoBehaviour
+public class ObjectDistanceManager : MonoBehaviour
 {
 
     [SerializeField]
@@ -18,7 +18,7 @@ public class ObjectNear : MonoBehaviour
     private GameObject model2;
 
     [SerializeField]
-    private int distanceFromCard;
+    private int distanceBetweenCard;
 
     [SerializeField]
     private AudioSource music;
@@ -42,7 +42,12 @@ public class ObjectNear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(card1.transform.position, card2.transform.position) < distanceFromCard)
+        HandleDistance();
+    }
+
+    private void HandleDistance()
+    {
+        if (Vector3.Distance(card1.transform.position, card2.transform.position) < distanceBetweenCard)
         {
             if (!stopAndPlay)
             {
@@ -51,7 +56,8 @@ public class ObjectNear : MonoBehaviour
                 animCard1Model.enabled = true;
                 animCard2Model.enabled = true;
             }
-        } else
+        }
+        else
         {
             if (stopAndPlay)
             {

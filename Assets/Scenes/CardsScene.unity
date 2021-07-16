@@ -151,7 +151,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51374374}
-  m_Mesh: {fileID: 814161263}
+  m_Mesh: {fileID: 876688296}
 --- !u!23 &51374376
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1529764711}
+  - {fileID: 224804431}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3258e2e547f9e488faa736d331a7e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: 1
+  stepScale: 1
 --- !u!95 &192749658
 Animator:
   serializedVersion: 3
@@ -318,6 +318,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!21 &224804431
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'carte2Material
+
+    17672'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2cb80f842d624d6dba5c6feb0cbc451e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &449906047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1102,7 +1131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3258e2e547f9e488faa736d331a7e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: 1
+  stepScale: 1
 --- !u!95 &614931893
 Animator:
   serializedVersion: 3
@@ -1122,6 +1151,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!21 &635381882
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'carte1Material
+
+    17750'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 096cd960b06b467eabe130eb23c80196, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,13 +1302,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 0}
---- !u!43 &814161263
+--- !u!43 &876688296
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh17678
+  m_Name: ImageTargetMesh17662
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1408,13 +1466,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &851374030
+--- !u!43 &1209416258
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh17752
+  m_Name: ImageTargetMesh17740
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1572,35 +1630,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &1008224880
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'carte1Material
-
-    17762'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 096cd960b06b467eabe130eb23c80196, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1367974887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,35 +1770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd25590778d2bd148b5bc10915d0f1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &1529764711
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'carte2Material
-
-    17688'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2cb80f842d624d6dba5c6feb0cbc451e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1635558790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,7 +1783,6 @@ GameObject:
   - component: {fileID: 1635558793}
   - component: {fileID: 1635558792}
   - component: {fileID: 1635558791}
-  - component: {fileID: 1635558796}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -1882,24 +1881,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1635558796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635558790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb00cf2130ec684a8737df0664553f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card1: {fileID: 2051032126}
-  model1: {fileID: 192749655}
-  card2: {fileID: 51374374}
-  model2: {fileID: 614931891}
-  distanceFromCard: 20
-  music: {fileID: 1367974888}
 --- !u!1 &2051032126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +1909,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051032126}
-  m_Mesh: {fileID: 851374030}
+  m_Mesh: {fileID: 1209416258}
 --- !u!23 &2051032128
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1948,7 +1929,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1008224880}
+  - {fileID: 635381882}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2036,3 +2017,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.426, y: 0, z: 0}
+--- !u!1 &2075337230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075337232}
+  - component: {fileID: 2075337231}
+  m_Layer: 0
+  m_Name: DistanceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2075337231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075337230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb00cf2130ec684a8737df0664553f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card1: {fileID: 2051032126}
+  model1: {fileID: 192749655}
+  card2: {fileID: 51374374}
+  model2: {fileID: 614931891}
+  distanceBetweenCard: 20
+  music: {fileID: 1367974888}
+--- !u!4 &2075337232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075337230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.759706, y: -46.549446, z: 41.57793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

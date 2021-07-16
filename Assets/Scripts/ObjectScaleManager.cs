@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectScaleManager : MonoBehaviour
 {
 
-    public float scale = 1f;
+    public float stepScale = 1f;
     private Vector2 startPosition;
 
     // Update is called once per frame
@@ -39,11 +39,11 @@ public class ObjectScaleManager : MonoBehaviour
 
         if (isUpwardSwipe)
         {
-            transform.localScale += new Vector3(scale, scale, scale);
+            transform.localScale += new Vector3(stepScale, stepScale, stepScale);
         }
         else if (isDownwardSwipe && transform.localScale.magnitude > 0)
         {
-            transform.localScale -= new Vector3(scale, scale, scale);
+            transform.localScale -= new Vector3(stepScale, stepScale, stepScale);
         }
     }
 }
